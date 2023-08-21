@@ -1,0 +1,56 @@
+CODES:
+
+1. qn1.cpp
+2. qn2_case1.c
+3. qn2_case2.c
+4. qn3.cpp
+
+USAGE:
+
+To create executables, type the following command in terminal:
+    make
+
+The following executables will be created:
+1. qn1
+2. qn2_case1
+3. qn2_case2
+4. qn3
+
+TO RUN:
+1. ./qn1 <number_of_seats> <number_of_diners>
+2. ./qn2_case1
+3. ./qn2_case2
+4. ./qn3
+
+INPUT FORMAT:
+1. qn1 and qn2 donot take inputs.
+2. For qn3, the first line of input contains the number of services n. Which is followed by information about workers of each service. For each service, the first line represents the number of workers m. followed by m lines with each line containing two integers - priority and resources available. The next line contains the number of tasks t followed by t lines of two integers - service_type(0 to n-1) and resources_required.
+
+EXAMPLE INPUT:
+4
+2
+1 3
+2 3
+3
+1 6 
+1 5
+2 5
+5
+1 6
+2 6
+3 6
+1 4
+1 7
+2
+1 8
+1 4
+5
+0 6
+0 7
+1 2
+3 7
+1 4
+
+
+
+
