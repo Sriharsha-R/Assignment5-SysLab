@@ -87,3 +87,50 @@ be separated by spaces in the following format: transaction_type resources_requi
 ➢ The number of requests that were forced to wait due to lack of available resources<br>
 ➢ The number of requests that were blocked due to the absence of any available worker
 threads
+
+
+## Steps to run :
+
+To create executables, type the following command in terminal:
+    make
+
+The following executables will be created:
+1. qn1
+2. qn2_case1
+3. qn2_case2
+4. qn3
+
+### commands to run :
+1. ./qn1 <number_of_seats> <number_of_diners>
+2. ./qn2_case1
+3. ./qn2_case2
+4. ./qn3
+
+## Input Format :
+1. qn1 and qn2 donot take inputs.
+2. For qn3, the first line of input contains the number of services n. Which is followed by information about workers of each service. For each service, the first line represents the number of workers m. followed by m lines with each line containing two integers - priority and resources available. The next line contains the number of tasks t followed by t lines of two integers - service_type(0 to n-1) and resources_required.
+
+## Example Input :
+4<br>
+2<br>
+1 3<br>
+2 3<br>
+3<br>
+1 6 <br>
+1 5<br>
+2 5<br>
+5<br>
+1 6<br>
+2 6<br>
+3 6<br>
+1 4<br>
+1 7<br>
+2<br>
+1 8<br>
+1 4<br>
+5<br>
+0 6<br>
+0 7<br>
+1 2<br>
+3 7<br>
+1 4<br>
